@@ -1,0 +1,23 @@
+/* 修改mint-ui默认样式 */
+/* 1. 搜索框 */
+.mint-search .mint-searchbar {
+  background-color: #fff;
+}
+.mint-search .mint-searchbar .mint-searchbar-inner,
+.mint-search .mint-searchbar .mint-searchbar-inner .mint-searchbar-core {
+  background-color: #ebebeb;
+}
+.mint-search .mint-searchbar .mint-searchbar-inner .mintui-search {
+  color: #333;
+}
+.mint-search .mint-searchbar .mint-searchbar-cancel {
+  font-size: 14px;
+  color: #666;
+}
+
+/* 2.导航 */
+.mint-header {
+  background: none;
+  box-shadow: 0px 2px 4px #ccc;
+  color: #333;
+}
